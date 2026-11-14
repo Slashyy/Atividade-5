@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e0f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    max-width: 350px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #eeeeee;
+}
+
+button {
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
